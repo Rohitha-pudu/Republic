@@ -10,7 +10,7 @@ const CardWhole = () => {
     <div className='flex flex-col-4 mt-[5rem]'>
     <div className='ml-[3rem] cursor-pointer m-1 rounded-2xl flex flex-col justify-start items-center w-96 border-7'>
               <div className='flex justify-center items-center py-4'>
-              <Image src='/images/final2.jpg' width="350" height="350" className='rounded-lg sepia card '/>
+              <Image src='/images/final2.jpg' alt='name' width="350" height="350" className='rounded-lg sepia card '/>
               
               </div>
               <Link href={`/text`}>
@@ -24,7 +24,7 @@ const CardWhole = () => {
         {/* second card  */}
         <div className='ml-[7rem] cursor-pointer m-1 rounded-2xl flex flex-col justify-start items-center w-96 border-7'>
               <div className='flex justify-center items-center py-4'>
-              <Image src='/images/img4.jpg' width="350" height="350" className='rounded-lg sepia card '/>
+              <Image src='/images/img4.jpg' alt='name' width="350" height="350" className='rounded-lg sepia card '/>
               
               </div>
               <Link href='/text2'>
@@ -38,7 +38,7 @@ const CardWhole = () => {
          {/* third row */}
          <div className='ml-[7rem] cursor-pointer m-1 rounded-2xl flex flex-col justify-start items-center w-96 border-7'>
               <div className='flex justify-center items-center py-4'>
-              <Image src='/images/img5.jpg' width="350" height="350" className='rounded-lg sepia card '/>
+              <Image src='/images/img5.jpg' alt='name' width="350" height="350" className='rounded-lg sepia card '/>
               
               </div>
               <Link href='/text'>
@@ -53,7 +53,7 @@ const CardWhole = () => {
              <div className='flex flex-col-4 mt-[5rem]'>
     <div className='ml-[3rem] cursor-pointer m-1 rounded-2xl flex flex-col justify-start items-center w-96 border-7'>
               <div className='flex justify-center items-center py-4'>
-              <Image src='/images/img10.jpg' width="350" height="350" className='rounded-lg sepia card '/>
+              <Image src='/images/img10.jpg' alt='name' width="350" height="350" className='rounded-lg sepia card '/>
               
               </div>
               <Link href='/text'>
@@ -67,7 +67,7 @@ const CardWhole = () => {
         {/* second card  */}
         <div className='ml-[7rem] cursor-pointer m-1 rounded-2xl flex flex-col justify-start items-center w-96 border-7'>
               <div className='flex justify-center items-center py-4'>
-              <Image src='/images/img7.jpg' width="350" height="350" className='rounded-lg sepia card '/>
+              <Image src='/images/img7.jpg' alt='name' width="350" height="350" className='rounded-lg sepia card '/>
               
               </div>
               <Link href='/text'>
@@ -80,7 +80,7 @@ const CardWhole = () => {
          {/* third row */}
          <div className='ml-[7rem] cursor-pointer m-1 rounded-2xl flex flex-col justify-start items-center w-96 border-7'>
               <div className='flex justify-center items-center py-4'>
-              <Image src='/images/img8.jpg' width="350" height="350" className='rounded-lg sepia card '/>
+              <Image src='/images/img8.jpg' alt='name' width="350" height="350" className='rounded-lg sepia card '/>
               
               </div>
               <Link href='/text'>
