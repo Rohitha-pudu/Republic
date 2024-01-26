@@ -5,12 +5,12 @@ import CardWhole from './CardWhole'
 const Hero = () => {
   return (
     
-    <div className='w-[100vw] h-[60vw] bg md:h-[87vh] relative'>
+    <div className='w-[100vw] h-[60vw] bg md:h-[87vh] sm:h-[99vh] relative'>
      <div className='flex flex-col items-center justify-center mx-auto w-[67%] h-[100%]'>
-      <div className='text-white text-[26px] font-primary md:text-[30px] lg:text-[34px] uppercase'>
+      <div className='text-white  font-primary  text-[18px] md:text-[30px] lg:text-[34px] uppercase'>
       Empowering Minds, Celebrating Unity.
       </div>
-      <div className='text-white text-[16px] font-primary md:text-[20px] lg:text-[13px] uppercase mt-[1rem]'>
+      <div className='text-white  font-primary text-[9px] md:text-[10px] lg:text-[13px]  uppercase mt-[1rem]'>
       Unveiling the Essence of Republic Day and Indian Constitution on somex.
       </div>
        <button 
